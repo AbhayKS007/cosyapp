@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/menu"
+            android:title="Home" />
+        <!--<item-->
+            <!--android:id="@+id/service"-->
+            <!--android:icon="@drawable/menu1"-->
+            <!--android:title="Schedule Service" />-->
+        <item
+            android:id="@+id/location"
+            android:icon="@drawable/menu2"
+            android:title="Update Location" />
+        <item
+            android:id="@+id/vehicle"
+            android:icon="@drawable/menu3"
+            android:title="Update Vehicle" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/menu4"
+            android:title="Appointment History" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/menu5"
+            
+            android:title="Rate cosicar" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/menu6"
+            android:title="Notification" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/menu7"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/menu8"
+            android:title="Logout" />
+    </group>
+</menu>

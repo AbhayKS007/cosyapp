@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wel_final">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/lo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lt"
+        android:layout_below="@+id/logo"
+        android:visibility="invisible"
+        android:text="your"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logo"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="50dp"
+        android:text="your smile"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/lw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignTop="@+id/ld"
+        android:layout_marginStart="38dp"
+        android:text="phone"
+        android:textAllCaps="true"
+        android:textColor="#f34f38"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/ld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lt"
+        android:layout_below="@+id/lo"
+        android:layout_marginTop="10dp"
+        android:text="cozicars team"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lt"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/six"
+        android:scaleX=".6"
+        android:scaleY=".6" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lt"
+        android:layout_below="@+id/lw"
+
+        android:layout_marginTop="10dp"
+        android:text="guarantee"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lt"
+        android:layout_below="@+id/la"
+
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:text="liked cleaned."
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/lh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+
+        android:text="rate our service and pay"
+        android:textAllCaps="true"
+        android:textColor="#f34f38"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lh"
+        android:text="only after you are"
+        android:textAlignment="center"
+        android:textColor="#f34f38"
+        android:textAllCaps="true"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/lk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ly"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="completly satisfied "
+        android:textAlignment="center"
+        android:textColor="#f34f38"
+        android:textAllCaps="true"
+        android:textSize="16dp" />
+
+
+
+
+</RelativeLayout>

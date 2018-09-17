@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wel_final">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/lo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/logo"
+        android:layout_alignTop="@+id/lt"
+        android:layout_below="@+id/logo"
+        android:textStyle="bold"
+        android:text="your"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/lt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logo"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="50dp"
+        android:text="smart"
+        android:textAllCaps="true"
+        android:textColor="#f34f38"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/lw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/ld"
+        android:layout_marginStart="38dp"
+        android:text="phone"
+        android:textAllCaps="true"
+        android:textColor="#f34f38"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lt"
+        android:layout_below="@+id/lo"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="now can"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_toEndOf="@+id/ls"
+        android:background="@drawable/one"
+        android:scaleX=".7"
+        android:layout_marginTop="24dp"
+        android:scaleY=".7" />
+
+    <TextView
+        android:id="@+id/la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lt"
+        android:layout_below="@+id/lw"
+
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="wash your"
+        android:textAllCaps="true"
+        android:textColor="#f34f38"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/logo"
+        android:layout_below="@+id/la"
+
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="automobiles"
+        android:textAllCaps="true"
+        android:textColor="#f34f38"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        android:text="welcome to cozicars app"
+        android:textAllCaps="true"
+        android:textColor="#f34f38"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lh"
+        android:text="cozicars is the conveniont trusted and"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/lk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ly"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="professional carwash and detaling "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/lp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lk"
+        android:layout_centerHorizontal="true"
+        android:text="service that can go any where."
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

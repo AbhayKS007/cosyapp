@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e51b41</color>
+    <color name="colorPrimaryDark">#e51b41</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <!--<color name="all">#f34f38</color>-->
+
+    <color name="all">#e51b41</color>
+
+    <color name="hedar">#e51b41</color>
+    <color name="button">#f31642</color>
+
+
+
+    <array name="dot_on_page_active">
+
+        <item>#FF5252</item>
+        <item>#FF5252</item>
+        <item>#FF5252</item>
+        <item>#FF5252</item>
+        <item>#FF5252</item>
+        <item>#FF5252</item>
+
+</array>
+
+
+    <array name="dot_on_page_not_active">
+
+
+        <item>#e6e6e6</item>
+        <item>#e6e6e6</item>
+        <item>#e6e6e6</item>
+        <item>#e6e6e6</item>
+        <item>#e6e6e6</item>
+        <item>#e6e6e6</item>
+
+
+</array>
+
+
+</resources>

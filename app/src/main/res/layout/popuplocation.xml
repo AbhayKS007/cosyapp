@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30000000"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:layout_centerInParent="true"
+        android:background="#ffffff">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:background="@color/all"
+            android:text="List"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            />
+
+        <ListView
+            android:id="@+id/location_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:textColor="#f34f38">
+        </ListView>
+
+        <TextView
+            android:id="@+id/norecords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Coupans Available"
+            android:textColor="#000"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cozicars</string>
+    <string name="title_activity_mobile_verification">MobileVerification</string>
+    <string name="google_android_map_api_key"> Map API key </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_drawer">drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="facebook_app_id">2029381783753411</string>
+    <string name="google_api_app_id">870921744017-hhis74t6d5uib4hr4fsi1tjva7fs1i9q.apps.googleusercontent.com</string>
+
+    <string name="next">START</string>
+
+    <string name="skip">SKIP</string>
+
+    <string name="start">GOT IT</string> />
+
+</resources>

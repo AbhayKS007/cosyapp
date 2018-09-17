@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "870921744017",
+    "firebase_url": "https://cozicar-36869.firebaseio.com",
+    "project_id": "cozicar-36869",
+    "storage_bucket": "cozicar-36869.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870921744017:android:97f5779d010e9b40",
+        "android_client_info": {
+          "package_name": "co.project.cosy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870921744017-81vknrnius00il07hm1kalqhfvhdf2cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPYlxhUVAXhGnBQioERqRlXWv5_WOVmBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

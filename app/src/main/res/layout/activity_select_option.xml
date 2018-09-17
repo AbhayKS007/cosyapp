@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".select_option">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/all"
+        android:id="@+id/toolbar"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SELECT OPTION"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:orientation="vertical">
+
+
+          <de.hdodenhof.circleimageview.CircleImageView
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/dorstop"
+              android:layout_width="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/circle"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:src="@drawable/book_servicee"
+              android:elevation="15dp"
+              android:layout_gravity="center"/>
+
+
+
+          <TextView
+              android:id="@+id/textView14"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="DOORSTEP SERVICE"
+              android:layout_marginTop="20dp"
+              android:textAlignment="center"
+              android:textColor="#000000"/>
+
+      </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/studio_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle"
+                android:src="@drawable/book_service1"
+                android:elevation="15dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView15kh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    STUDIO SERVICE"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

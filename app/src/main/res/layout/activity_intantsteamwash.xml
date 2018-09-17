@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intantsteamwash"
+    android:orientation="vertical">
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@color/all"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="69dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:background="@android:color/transparent"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/form_03" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="INTANT STEAM WASH"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="38dp"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instant Stean car wash involve full eco wash of car"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/all"
+        android:textSize="16dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Having that kind of logic in your model is messing up a bit with the idea of separating business logic from model. But with some modifications it might be isolated. And by the way it works fine even how it is now."
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Having that kind of logic in your model is messing up a bit with the idea of separating business logic from model. But with some modifications it might be isolated. And by the way it works fine even how it is now."
+        android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="91dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="85dp"
+                        android:layout_marginTop="2dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="25dp">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="55dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="1dp"
+                            app:srcCompat="@drawable/manage_vehicle" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="SEDAN/MUV"
+                            android:textSize="10dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/all" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="₹ 649"
+                            android:textSize="10dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/all" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="350dp"
+                        android:layout_height="80dp"
+                        app:srcCompat="@drawable/btn"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
